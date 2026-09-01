@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Antimeridian-Crossing Bounding Box Calculator"
+version: 1.0.0
+date-released: "2026-09-01"
+url: "https://github.com/k-rns/bounding_box_antimeridian"
+doi: 10.5281/zenodo.22239389
+license: MIT
+authors:
+  - family-names: "Soenen"
+    given-names: "Karen"
+    affiliation: "Woods Hole Oceanographic Institution"
