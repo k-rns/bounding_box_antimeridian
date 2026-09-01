@@ -1,4 +1,4 @@
-# Bounding Box
+# Antimeridian-Crossing Bounding Box Calculator
 
 [![DOI](https://zenodo.org/badge/1353982774.svg)](https://doi.org/10.5281/zenodo.22239389) [![Open Notebook](https://img.shields.io/badge/Open-Notebook-blue)](notebooks/demo_bounding_box.ipynb)
 
