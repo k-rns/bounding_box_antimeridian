@@ -45,5 +45,5 @@ bounding_box/
 
 ## Standards Compliance
 
-**Geometry:** Antimeridian-crossing geometries are split into a `MultiPolygon`, per [RFC 7946 §3.1.9](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.9), which says such geometries "SHOULD be represented by cutting it in two such that neither part's representation crosses the antimeridian."
-**Bounding box:** Crossing bboxes use the `west > east` convention from [RFC 7946 §5.2](https://datatracker.ietf.org/doc/html/rfc7946#section-5) and [OGC API - Features](https://docs.ogc.org/is/17-069r4/17-069r4.html) — west (min longitude) is numerically greater than east (max longitude). Not an ad hoc workaround; it's spec-compliant.
+- **Geometry:** Antimeridian-crossing geometries are split into a `MultiPolygon`, per [RFC 7946 §3.1.9](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.9), which says such geometries "SHOULD be represented by cutting it in two such that neither part's representation crosses the antimeridian."
+- **Bounding box:** Crossing bboxes use the `west > east` convention from [RFC 7946 §5.2](https://datatracker.ietf.org/doc/html/rfc7946#section-5) and [OGC API - Features](https://docs.ogc.org/is/17-069r4/17-069r4.html) — west (min longitude) is numerically greater than east (max longitude).
